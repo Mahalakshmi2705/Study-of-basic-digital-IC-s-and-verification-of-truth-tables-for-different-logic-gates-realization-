@@ -2,20 +2,9 @@
  AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
-Equipments Required:
-Hardware – PCs, Cyclone II , USB flasher
-Software – Quartus prime
-Theory
-Introduction
-Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
+Equipments Required: Hardware – PCs, Cyclone II , USB flasher Software – Quartus prime Theory Introduction Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
-AND gate
-OR gate
-NOT gate
-NAND gate
-NOR gate
-Ex-OR gate
-Ex-NOR gate
+AND gate OR gate NOT gate NAND gate NOR gate Ex-OR gate Ex-NOR gate
 1) AND gate
 The AND gate is an electronic circuit that gives a high output (1) only if all its inputs are high. A dot (.) is used to show the AND operation i.e. A.B or can be written as AB
 
@@ -58,15 +47,40 @@ Press the switches for inputs “A” and “B”. The switch is ON state when 1
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 Program:
-/*
-Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: 
-RegisterNumber:  
+\*
+
+
+module expone (a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+xor(y4,a,b);
+nand(y5,a,b);
+nor(y6,a,b);
+xnor(y7,a,b);
+endmodule
+
 */
-Logic symbol & Truthtable
-RTL realization
-Output:
-RTL
+OUTPUT:
+
+Logic symbol & truthtable:
+
+![Screenshot (31)](https://user-images.githubusercontent.com/122199968/212720645-da73b609-aff2-43a4-b787-abee014a3dd6.png)
+
+
+
+RTL realization:
+
+![Screenshot (32)](https://user-images.githubusercontent.com/122199968/212737736-8fe6fbf8-8008-42f7-991b-c58f92323eb5.png)
+
+
+
+Timimg diagram:
+
+![Screenshot (18)](https://user-images.githubusercontent.com/122199968/212738217-20b14708-d6eb-4e57-97c9-c17f06e46813.png)
+
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
