@@ -1,6 +1,6 @@
 Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
 
-AIM:
+Aim:
 
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
@@ -92,7 +92,6 @@ RTL realization:
 
 
 Timimg diagram:
-
 ![Screenshot (18)](https://user-images.githubusercontent.com/122199968/212738217-20b14708-d6eb-4e57-97c9-c17f06e46813.png)
 
 
